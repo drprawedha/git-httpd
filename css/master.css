@@ -1,13 +1,13 @@
 body {
-  background-color: red;
+  background-color: #B5DCFF;
 }
 
 body#alt {
-  background-color: grey;
+  background-color: #B5B7FF;
 }
 
 header {
-  background-color: white;
+  background-color: #D8B5FF;
 }
 
 img {
