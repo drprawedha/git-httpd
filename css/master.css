@@ -1,3 +1,18 @@
 body {
   background-color: red;
 }
+
+body#alt {
+  background-color: grey;
+}
+
+header {
+  background-color: white;
+}
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+  min-width: 200px;
+  min-height: 200px;
+}
