@@ -1,15 +1,27 @@
 .tengah {
   text-align: center;
+  text-decoration: overline;
+  text-transform: uppercase;
 }
 
 .kiri {
   text-align: left;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  letter-spacing: -4px;
 }
 
 .kanan {
   text-align: right;
+  text-decoration: underline;
+  text-transform: capitalize;
 }
 
 .kanankiri {
   text-align: justify;
+  text-indent: 60px;
+}
+
+a {
+  text-decoration: none;
 }
