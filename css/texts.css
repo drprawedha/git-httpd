@@ -2,6 +2,7 @@
   text-align: center;
   text-decoration: overline;
   text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 .kiri {
@@ -15,11 +16,13 @@
   text-align: right;
   text-decoration: underline;
   text-transform: capitalize;
+  letter-spacing: -4px;
 }
 
 .kanankiri {
   text-align: justify;
   text-indent: 60px;
+  letter-spacing: 10px;
 }
 
 a {
