@@ -1,0 +1,6 @@
+.outline-css {
+  outline-style: solid;
+  outline-color: blue;
+
+  border: dashed orange;
+}
