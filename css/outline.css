@@ -1,6 +1,12 @@
 .outline-css {
+  margin: 50px;
+
   outline-style: solid;
   outline-color: blue;
+  outline-width: 20px;
 
-  border: dashed orange;
+  outline-offset: 25px;
+
+
+  border: dashed orange 10px;
 }
