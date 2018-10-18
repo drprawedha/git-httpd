@@ -4,6 +4,8 @@
   top: 120px;
   /* ukuran relative dari margin top sejauh 120px */
   background-color: yellow;
+  z-index: 1;
+  /* z-index digunakan untuk menempatkan pada lapisan x */
 }
 
 .belajar2 {
@@ -19,27 +21,72 @@
 /* jadi indiuknya adalah relative dan anaknya absolute
 absolute relative konsepnya seperti anak dan induk
 absolute bergerak jika sudah dibungkus relative */
-div {
+div.section-0 {
   position: relative;
   width: 100px;
   height: 100px;
   /* top: 100px; */
   background: magenta;
+  z-index: 1;
 }
 
 p {
   margin: 0px
 }
 
-header {
-    position: relative;
-    background-color: yellow;
-    width: 60%
+p.black {
+  color: grey;
+  z-index: -1;
 }
 
-.header-nav {
-  position: absolute;
-  top: 10px;
-  right: 20%;
-  left: 20%;
+p.section-1 {
+  position: relative;
+  background-color: red;
+  width: 500px;
+  height: 200px;
+  z-index: 0;
+}
+
+p.section-2 {
+  position: relative;
+  background-color: black;
+  color: white;
+  width: 400px;
+  height: 300px;
+  z-index: 0;
+}
+
+p.section-3{
+  background-color: lightgreen;
+  width: 400px;
+  height: 300px;
+  z-index: 2;
+
+}
+
+.fixed {
+  position: fixed;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  right: 50px;
+  z-index: 1;
+}
+
+.sticky {
+  /* cocok untuk digunakan pada menu navigasi yang hilang pada saat scroll */
+  position: sticky;
+  background-color: pink;
+  top: 0px;
+  z-index: 100;
+}
+
+p.section-4{
+  background: lightblue;
+}
+
+footer {
+  position: relative;
+  width: 100%;
 }
