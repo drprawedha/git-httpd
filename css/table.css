@@ -13,7 +13,16 @@ th {
   vertical-align: middle;
   color: orange;
 }
+
 th:hover {
   color: red;
   background: yellow;
+}
+
+.hov:hover {
+  background: yellow;
+}
+
+th, td {
+  border-bottom: 2px dashed orange;
 }
