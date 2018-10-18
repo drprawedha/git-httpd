@@ -1,0 +1,7 @@
+.kotak {
+  position: relative;
+  margin-top: 40px;
+  top: 120px;
+  /* ukuran relative dari margin top sejauh 120px */
+  background-color: yellow;
+}
