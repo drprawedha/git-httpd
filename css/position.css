@@ -1,7 +1,45 @@
 .kotak {
   position: relative;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   top: 120px;
   /* ukuran relative dari margin top sejauh 120px */
   background-color: yellow;
+}
+
+.belajar2 {
+  position: absolute;
+  /* top: 0px; */
+  bottom: 0px;
+  right: 0px;
+  width: 70px;
+  height: 50px;
+  background-color: cyan;
+}
+
+/* jadi indiuknya adalah relative dan anaknya absolute
+absolute relative konsepnya seperti anak dan induk
+absolute bergerak jika sudah dibungkus relative */
+div {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  /* top: 100px; */
+  background: magenta;
+}
+
+p {
+  margin: 0px
+}
+
+header {
+    position: relative;
+    background-color: yellow;
+    width: 60%
+}
+
+.header-nav {
+  position: absolute;
+  top: 10px;
+  right: 20%;
+  left: 20%;
 }
