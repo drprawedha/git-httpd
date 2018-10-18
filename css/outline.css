@@ -10,3 +10,13 @@
 
   border: dashed orange 10px;
 }
+
+div.line1 {
+  display: inline-block;
+  background-color: red;
+}
+
+div.line2 {
+  display: flex;
+  background-color: pink;
+}
